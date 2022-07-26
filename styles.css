@@ -182,11 +182,11 @@ body{
 }
 
 .about .row .content{
-  text-align: left;
+  text-align: start;
 }
 
 .about .row .image img{
-  width: 50vw;
+  width: 45vw;
 }
 
 .about .row .content h3{
@@ -260,7 +260,7 @@ body{
   margin:7rem 2rem;
   position: relative;
   overflow: hidden;
-  -webkit-box-reflect: below .2rem linear-gradient(transparent 70%, #0004);
+  -webkit-box-reflect: below 0.2rem linear-gradient(transparent 70%, #0004);
 }
 
 .team .row .card .image{
@@ -272,8 +272,8 @@ body{
   height:13rem;
   width:13rem;
   border-radius: 50%;
-  border:.5rem solid #fff;
-  box-shadow: 0 0 .5rem rgba(0,0,0,.3);
+  border:0.5rem solid #fff;
+  box-shadow: 0 0 0.5rem rgba(0,0,0,.3);
   object-fit: cover;
 }
 
@@ -298,16 +298,6 @@ body{
   color:var(--color);
 }
 
-.team .row .card::before, .team .row .card::after{
-  content: '';
-  position: absolute;
-  border-radius: 50%;
-  height:15rem;
-  width:15rem;
-  z-index: -1;
-}
-
-
 .contact{
   min-height: 100vh;
   width: 100vw;
@@ -327,7 +317,7 @@ body{
 
 .contact .row .form-container{
   width: 50%;
-  text-align: left;
+  text-align: start;
   padding:0 5rem;
 }
 
@@ -336,7 +326,7 @@ body{
   border:none;
   height:4rem;
   background: none;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   box-shadow: .2rem .2rem .5rem rgba(0,0,0,.2);
   padding:0 1rem;
   margin:1rem 0;

@@ -1,3 +1,6 @@
+//  JQuery code for handling navbar on mobile screens and,
+//  hide or display navbar on scroll
+
 $(document).ready(function(){
 
 
