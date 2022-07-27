@@ -504,6 +504,11 @@ body{
   .home .slogan{
     font-size: 1.7rem;
   }
+  
+  .text-container {
+  margin: 0 1rem;
+  
+  }
 
   .about .row{
     flex-flow: column-reverse;
