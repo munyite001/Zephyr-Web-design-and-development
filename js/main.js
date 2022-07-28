@@ -27,7 +27,4 @@ $(document).ready(function(){
       $('.accordion .accordion-header span').text('+');
       $(this).children('span').text('-');
     });
-  
-  
-  
   });
