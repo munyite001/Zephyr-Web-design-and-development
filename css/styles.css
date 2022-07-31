@@ -31,6 +31,8 @@ body{
   color:var(--color);
   position: relative;
   letter-spacing: .2rem;
+  border-bottom: 5px solid var(--color);
+  padding-bottom: 1rem;
 }
 
 /* buttons */
