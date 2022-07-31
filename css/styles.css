@@ -424,6 +424,9 @@ body{
   font-size: 1.3rem;
   display: none;
 }
+.accordion-body p{
+  text-transform: none;
+}
 
 .faq .row .accordion-container .accordion:nth-child(1) .accordion-body{
   display: block;
