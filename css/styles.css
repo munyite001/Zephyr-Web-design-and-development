@@ -142,11 +142,18 @@ body{
   
 }
 
+
+
 .header .fa-bars{
   color:#fff;
   cursor: pointer;
   font-size: 3rem;
   display: none;
+}
+/* Toggle btn */
+
+.toggle-btn {
+  visibility: hidden;
 }
 
 /* Darker Header */
@@ -531,6 +538,40 @@ body{
 }
 
 
+/* preloader */
+
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: var(--clr-white);
+  visibility: visible;
+  z-index: 999;
+  transition: var(--transition);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.spin {
+  width: 100px;
+  height: 100px;
+  border-top: 2px solid var(--clr-primary-5);
+  border-radius: 50%;
+  animation: spinner 0.7s linear infinite;
+}
+
+.hide-preloader {
+  visibility: hidden;
+  z-index: -999;
+}
+
+@keyframes spinner {
+  0% { rotate: 0deg; }
+  100% { rotate: 360deg; }
+}
+
 /* media queries  */
 
 @media (max-width:768px){
@@ -576,7 +617,7 @@ body{
 
   /* Button */
   .toggle-btn {
-    background-color: transparent;
+    visibility: visible;
     font-size: 1rem;
     border: none;
     display: flex;

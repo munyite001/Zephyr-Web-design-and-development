@@ -68,3 +68,14 @@ toggle_question_btns.forEach(btn => {
         }
     })
 })
+
+//Preloader
+const preloader = document.querySelector('.preloader');
+
+//  Preloader will be displayed by default
+//  We will add an event listener to our page, to only hide the pre loader
+//  after everything has loaded
+
+window.addEventListener('load',() => {
+    preloader.classList.add('hide-preloader');
+})
