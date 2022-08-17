@@ -43,19 +43,21 @@
 <a href="#" class="logo"><i class="fa-solid fa-code"></i>zephyr</a>
 
 
-<div class="fas fa-bars"></div>
+<button class="toggle-btn">
+  <i class="fas fa-bars"></i>
+</button>
 
 
 <nav class="navbar">
     
-  <ul>
+  <ul class="nav-list">
 
-    <li><a href="#home">home</a></li>
-    <li><a href="#about">about</a></li>
-    <li><a href="#service">services</a></li>
-    <li><a href="#team">team</a></li>
-    <li><a href="#contact">contact</a></li>
-    <li><a href="#faq">FAQ</a></li>
+    <li><a  class="nav-link" href="#home">home</a></li>
+    <li><a  class="nav-link" href="#about">about</a></li>
+    <li><a  class="nav-link" href="#service">services</a></li>
+    <li><a  class="nav-link" href="#team">team</a></li>
+    <li><a  class="nav-link" href="#contact">contact</a></li>
+    <li><a  class="nav-link" href="#faq">FAQ</a></li>
   </ul>
 </nav>
 
@@ -364,86 +366,129 @@
   <img src="images/image9.svg" alt="">
 </div>
 
-<div class="accordion-container">
+<div class="questions-container">
 
-  <div class="accordion">
-    <div class="accordion-header">
-      <span>+</span>
-      <h3>How much will it cost?</h3>
-    </div>
-    <div class="accordion-body">
-        <p>
-          Well, it will depend with the kind of website you want. 
-          We have various packages for different types of websites, ranging 
-          from small single page websites, multi-page websites with limited interactivity, 
-          and even full-stack websites, that integrate to databases eg E-commerce websites.
-          To learn more, request for a free quote from the <a href="#contact"> Contact-Us</a> section
-          
-        </p>
-    </div>
-  </div>
+  <!-- Single Question -->
+  <article class="question">
 
-  <div class="accordion">
-    <div class="accordion-header">
-      <span>+</span>
-      <h3>How To update website?</h3>
-    </div>
-    <div class="accordion-body">
-        <p>
-          All websites that we build, come with a very powerful update feature.
-          To update your website, head over to the admin pannel, and under the settings tab,
-          click on the <strong> Request Update </strong> button. This will trigger the update software which will,
-          automatically run an update on your website, based on our newest specifications
-        </p>
-    </div>
-  </div>
+    <div class="question-title">
 
-  <div class="accordion">
-    <div class="accordion-header">
-      <span>+</span>
-      <h3>is domain provided free?</h3>
-    </div>
-    <div class="accordion-body">
-        <p>
-          Unfortunately no. All websites that we build, 
-          will come pre-hosted on a third party platform like 
-          Netlify, which will have a <strong>(.netlify.app)</strong> extension.
-          However, if you do wish for a custom domain, we can register one for you and configure it to your website
-          at extra cost.
-        </p>
-    </div>
-  </div>
+      <p> is it seo freindly? </p>
 
-  <div class="accordion">
-    <div class="accordion-header">
-      <span>+</span>
-      <h3>how long it takes to design?</h3>
-    </div>
-    <div class="accordion-body">
-        <p>
-          Once we have received an order, our designers start to work on the designs
-          immediately. Our team works on a mobile-first workflow so the first design will be the 
-          mobile design of the website, which will take approximately 48hours to come up with.
-          Once that's done, the next design will be the desktop design, which will take approximately, 24 hours.
-          After that, the developers can start working on the website which will take approximately, 1 weeks.
-          So from payment, it will take us about two weeks to deliver your desired website.
-        </p>
-    </div>
-  </div>
+      <span class="toggle-question">+</span>
 
-  <div class="accordion">
-    <div class="accordion-header">
-      <span>+</span>
-      <h3>is it seo freindly?</h3>
     </div>
-    <div class="accordion-body">
-        <p>
-          <strong>Yes it is.</strong> All our build are Search Engine Optimized. We have a professional team 
-          of SEO specialists who work hand in hand with our developers to ensure that the website builds, are fully
-          SEO friendly and rank highly in searches.
-        </p>
+
+    <div class="question-text">
+
+      <strong>Yes it is.</strong> All our build are Search Engine Optimized. We have a professional team 
+            of SEO specialists who work hand in hand with our developers to ensure that the website builds, are fully
+            SEO friendly and rank highly in searches.
+          </p>
+
     </div>
-  </div>
+
+  </article>
+  <!-- End of question -->
+
+  <!-- Single Question -->
+  <article class="question">
+
+    <div class="question-title">
+
+      <p> how long it takes to design? </p>
+
+      <span class="toggle-question">+</span>
+
+    </div>
+
+    <div class="question-text">
+
+      Once we have received an order, our designers start to work on the designs
+      immediately. Our team works on a mobile-first workflow so the first design will be the 
+      mobile design of the website, which will take approximately 48hours to come up with.
+      Once that's done, the next design will be the desktop design, which will take approximately, 24 hours.
+      After that, the developers can start working on the website which will take approximately, 1 weeks.
+      So from payment, it will take us about two weeks to deliver your desired website.
+
+    </div>
+
+  </article>
+  <!-- End of question -->
+
+  <!-- Single Question -->
+  <article class="question">
+
+    <div class="question-title">
+
+      <p> is domain provided free? </p>
+
+      <span class="toggle-question">+</span>
+
+    </div>
+
+    <div class="question-text">
+
+      Unfortunately no. All websites that we build, 
+      will come pre-hosted on a third party platform like 
+      Netlify, which will have a <strong>(.netlify.app)</strong> extension.
+      However, if you do wish for a custom domain, we can register one for you and configure it to your website
+      at extra cost.
+
+    </div>
+
+  </article>
+  <!-- End of question -->
+
+
+  <!-- Single Question -->
+  <article class="question">
+
+    <div class="question-title">
+
+      <p> How To update website? </p>
+
+      <span class="toggle-question">+</span>
+
+    </div>
+
+    <div class="question-text">
+
+      All websites that we build, come with a very powerful update feature.
+      To update your website, head over to the admin pannel, and under the settings tab,
+      click on the <strong> Request Update </strong> button. This will trigger the update software which will,
+      automatically run an update on your website, based on our newest specifications
+
+    </div>
+
+  </article>
+  <!-- End of question -->
+
+  <!-- Single Question -->
+  <article class="question">
+
+    <div class="question-title">
+
+      <p> How much does it cost? </p>
+
+      <span class="toggle-question">+</span>
+
+    </div>
+
+    <div class="question-text">
+
+      Well, it will depend with the kind of website you want. 
+      We have various packages for different types of websites, ranging 
+      from small single page websites, multi-page websites with limited interactivity, 
+      and even full-stack websites, that integrate to databases eg E-commerce websites.
+      To learn more, request for a free quote from the <a href="#contact"> Contact-Us</a> section
+
+    </div>
+
+  </article>
+  <!-- End of question -->
+
+  
 
 </div>
 
@@ -480,7 +525,7 @@
 
 <!-- custom js file link  -->
 
-<script src="./js/main.js"></script>
+<script src="./js/app.js"></script>
 
   
 </body>
